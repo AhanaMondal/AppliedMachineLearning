@@ -1,0 +1,19 @@
+============================= test session starts =============================
+platform win32 -- Python 3.10.10, pytest-9.0.2, pluggy-1.6.0
+rootdir: C:\Users\Ahana\Documents\AppliedMachineLearning\AML_Assignment3
+plugins: anyio-4.10.0, hydra-core-1.3.2, cov-7.0.0
+collected 9 items
+
+test_assignment3.py .........                                            [100%]
+
+=============================== tests coverage ================================
+______________ coverage: platform win32, python 3.10.10-final-0 _______________
+
+Name                  Stmts   Miss  Cover   Missing
+---------------------------------------------------
+app.py                   15      1    93%   27
+score.py                 12      2    83%   21, 24
+test_assignment3.py      42      0   100%
+---------------------------------------------------
+TOTAL                    69      3    96%
+============================== 9 passed in 5.55s ==============================
